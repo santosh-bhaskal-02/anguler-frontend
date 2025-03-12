@@ -1,0 +1,37 @@
+<main>
+  <div class="form">
+    <form (ngSubmit)="handleSubmit()">
+      <div>
+        <h2>Patient Registration Form</h2>
+      </div>
+      <label for="Fname">First Name</label> <br />
+      <input
+        id="name"
+        name="name"
+        type="text"
+        placeholder="Enter your Name"
+        [(ngModel)]="patient.name"
+      />
+
+      <label for="email">Address </label> <br />
+      <input
+        id="address"
+        name="address"
+        type="address"
+        placeholder="Enter your Address"
+        [(ngModel)]="patient.address"
+      />
+
+      <label for="phone">Age</label> <br />
+      <input
+        id="age"
+        name="age"
+        placeholder="Enter your age "
+        [(ngModel)]="patient.age"
+      />
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</main>
+

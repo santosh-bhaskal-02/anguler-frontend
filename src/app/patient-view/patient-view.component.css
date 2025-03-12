@@ -1,0 +1,81 @@
+/* Style for the contact details */
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tbl {
+  overflow-x: auto;
+  margin: 20px;
+}
+
+/* Style for the table container */
+div {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px; /* Increased font size */
+  text-align: left;
+}
+
+/* Table header styling */
+th {
+  background-color: #0b91ff;
+  color: white;
+  padding: 15px; /* Increased padding */
+  text-align: center;
+}
+
+/* Table data cell styling */
+td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Increased padding */
+  text-align: center;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Center-align the heading */
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 28px; /* Increased font size */
+  color: #333;
+}
+
+/* Increase table size by adding padding and font size to table elements*/
+table {
+  min-width: 800px; /* added a minimum width to make it wider*/
+}
+
+td,
+th {
+  padding: 15px 20px; /* increased padding to make cells larger */
+  font-size: 18px; /* increased font-size for better readability */
+}

@@ -1,0 +1,136 @@
+main {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Heading Styling */
+h1,
+h2 {
+  color: #162368;
+  text-align: center;
+}
+
+/* Form container */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input styling */
+label {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #181818;
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px; /* Ensures consistent space between inputs */
+}
+
+/* Error message styling */
+.error {
+  height: 20px;
+  line-height: 20px;
+  color: red;
+}
+
+/* Button styling */
+button {
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4869fc;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0935fc;
+}
+
+/* Style for the contact details */
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tbl {
+  overflow-x: auto;
+  margin: 20px;
+}
+
+/* Style for the table container */
+div {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* Table header styling */
+th {
+  background-color: #0b91ff;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+/* Table data cell styling */
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Center-align the heading */
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+}

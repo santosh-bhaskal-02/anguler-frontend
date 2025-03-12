@@ -1,0 +1,21 @@
+<h2>Records</h2>
+<div class="tbl">
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let record of patientRecord">
+        <td>{{ record.id }}</td>
+        <td>{{ record.name }}</td>
+        <td>{{ record.address }}</td>
+        <td>{{ record.age }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
